@@ -3,6 +3,7 @@ package relaymode
 const (
 	Unknown = iota
 	ChatCompletions
+	BatchInference
 	Completions
 	Embeddings
 	Moderations
